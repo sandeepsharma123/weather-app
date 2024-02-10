@@ -1,0 +1,53 @@
+.tempAppBox{
+    max-width:300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: rgb(90 185 193 / 50%);
+    padding: 25px;
+}
+.inputData input.inputFeild {
+    width: 100%;
+    border: 1px solid #eee;
+    height: 40px;
+    padding: 8px 13px;
+    border-radius: 25px;
+}
+.info {
+    text-align: center;
+}
+.inputData input.inputFeild:hover {
+    box-shadow: rgb(74, 154, 255) 0px 0px 0px 0px;
+    animation: animation-highlight 1.2s linear 0s infinite normal none running;
+}
+.tempAppBox .header h1 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(74, 154, 255);
+}
+.tempAppBox .header .unit-switch {
+    text-align: center;
+    margin-bottom:15px;
+}
+.tempAppBox .header .unit-switch button {
+    margin: 5px;
+    background: transparent;
+    border: none;
+    color:#000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tempAppBox .header .unit-switch button.active {
+    color: rgb(128 0 128 / 60%) !important;
+}
+.recent-searches h2 {
+    color: lightyellow;
+}
+@keyframes animation-highlight {
+  0%  {
+      box-shadow: rgba(174, 154, 255, 0.7) 0px 0px 0px 0px;
+  }   
+  100% {
+    box-shadow: rgba(174, 154, 255, 0.0) 0 0 0 10px;
+  }
+}
